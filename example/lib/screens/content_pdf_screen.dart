@@ -1,11 +1,9 @@
 import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:path/path.dart';
-import 'package:path_provider/path_provider.dart';
-import 'package:printing/printing.dart';
 import 'package:webcontent_converter/webcontent_converter.dart';
-import 'package:webcontent_converter_example/services/demo.dart';
-import 'package:webcontent_converter_example/services/webview_helper.dart';
+
+import '../services/demo.dart';
 
 class ContentToPDFScreen extends StatefulWidget {
   @override

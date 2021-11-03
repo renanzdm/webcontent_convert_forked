@@ -124,7 +124,7 @@ class WebcontentConverter {
   ///   await file.writeAsBytes(bytes);
   /// }
   /// ```
-  static Future contentToImage({
+  static Future<Uint8List> contentToImage({
     required String content,
     double duration: 2000,
     String? executablePath,
@@ -133,7 +133,7 @@ class WebcontentConverter {
       'content': content,
       'duration': duration
     };
-    Uint8List? results = Uint8List.fromList([]);
+    Uint8List results = Uint8List.fromList([]);
     try {
       if (Platform.isMacOS || Platform.isLinux || Platform.isWindows) {
         WebcontentConverter.logger.info("Desktop support");

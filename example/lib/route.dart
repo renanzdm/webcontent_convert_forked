@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:webcontent_converter/webcontent_converter.dart';
-import 'package:webcontent_converter_example/screens/content_image_screen.dart';
-import 'package:webcontent_converter_example/screens/content_pdf_screen.dart';
-import 'package:webcontent_converter_example/screens/error_screen.dart';
 
+
+import 'screens/content_image_screen.dart';
+import 'screens/content_pdf_screen.dart';
+import 'screens/error_screen.dart';
 import 'screens/filepath_image_screen.dart';
 import 'screens/filepath_pdf_screen.dart';
 import 'screens/home_screen.dart';
