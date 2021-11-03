@@ -124,7 +124,7 @@ class WebcontentConverter {
   ///   await file.writeAsBytes(bytes);
   /// }
   /// ```
-  static Future<Uint8List?> contentToImage({
+  static Future contentToImage({
     required String content,
     double duration: 2000,
     String? executablePath,
